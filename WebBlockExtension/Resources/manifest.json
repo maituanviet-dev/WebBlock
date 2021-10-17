@@ -1,0 +1,20 @@
+{
+   "author": "Smagold",
+   "background": {
+      "scripts": [ "bg.js" ],
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html"
+   },
+   "description": "Require password for blacklisted sites",
+   "icons": {
+      "48": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Website Block with Password",
+   "permissions": [ "tabs", "storage", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}
