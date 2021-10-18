@@ -3,7 +3,13 @@ window.onload = function() {
 	if (localStorage['pass'])
 	{
 		normal_page = document.body.innerHTML;
-		document.body.innerHTML = '<input type="password" id="pass_to_pass" placeholder="Type password here"><input type="submit" id="button_to_pass" value="GO"><br clear=all><input type="submit" id="turn" value="RELOAD SESSION" title="Resets current session" style="position: relative; left: -120px; top: 20px;">';
+		document.body.innerHTML = ` <div id="passView">
+        <div>
+            <input type="password" id="pass_to_pass" placeholder="Type password here">
+            <input type="submit" id="button_to_pass" value="GO">
+        </div>
+        <input type="submit" id="turn" value="RELOAD SESSION" title="Resets current session" style="margin-top: 20px;">
+    </div>`;
 		document.body.style.textAlign = "center";
 		document.getElementById("turn").onclick = function() {
 			chrome.extension.getBackgroundPage().reset();
@@ -34,9 +40,9 @@ function passToPage()
 	document.body.style.textAlign = "left";
 	if (!document.getElementById("pass"))
 		document.body.innerHTML = normal_page;
-	var logins = chrome.extension.getBackgroundPage().getLogins();
-	document.getElementById("success").innerHTML = logins[0];
-	document.getElementById("un_success").innerHTML = logins[1];
+	// var logins = chrome.extension.getBackgroundPage().getLogins();
+	// document.getElementById("success").innerHTML = logins[0];
+	// document.getElementById("un_success").innerHTML = logins[1];
 	if (localStorage['save'])
 		document.getElementById("text").value = localStorage['save'];
 	document.getElementById("pass").value = localStorage['pass'] || "";

@@ -4,81 +4,197 @@
 <meta http-equiv="Content-Language" content="ru">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
 <style>
-html, body {
-	border: none;
-	border-radius: 0;
-	margin: 0;
-	padding: 0;
+	body {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-	width: 400px;
-	height: 170px;
-	margin: 0;
-        margin-bottom: 10px;
-	padding: 10px;
-	font-family: 'Roboto', 'Arial', sans-serif;
-	text-align: left;
-	background: white;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: left;
+  background: white;
 }
-#text {
-	width: calc(100% - 12px);
-	height: 60%;
-	margin: 0;
-	font-size: 16px;
-	outline: none;
-        padding: 5px;
+.ui-autocomplete-input {
+  width: calc(100% - 20px);
+  height: 120px;
+  margin: 10;
+  font-size: 16px;
+  outline: none;
+  padding: 5px;
 }
-input[type='submit'] {
-	width: auto;
-	height: 40px;
-	margin: 0;
-	padding: 0 5px;
-	border: none;
-	font-size: 16px;
-	font-weight: bold;
-	color: white;
-	line-height: 40px;
-	background: #00B0FC;
-	cursor: pointer;
+input[type="submit"] {
+  width: auto;
+  height: 40px;
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  line-height: 40px;
+  background: #00b0fc;
+  cursor: pointer;
 }
 #save {
-	float: left;
+  background: #5e5df0;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: #5e5df0 0 10px 20px -10px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 5px;
 }
 #turn {
-        float: right;
-	background: #DA0000;
+  background: #fe2e2e;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: #fe2e2e 0 10px 20px -10px;
+  box-shadow: #fe2e2e 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  word-break: break-word;
+  border: 0;
+  align-self: center;
 }
 p {
-	margin: 3px 0;
+  margin: 3px 0;
 }
 #pass {
-	box-sizing: border-box;
-	width: 100%;
-	height: 30px;
-	font-size: 16px;
-        padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  background: none repeat scroll 0 0 #fff;
+  border-color: -moz-use-text-color #ffffff #ffffff -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  color: #555555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+  border: 1px solid #00b0fc;
+  border-width: 1px;
+  border-color: #00b0fc;
 }
 #pass_to_pass {
-	width: auto;
-	box-sizing: border-box;
-	height: 40px;
-	margin: 60px 0 0 0;
-	padding: 0 5px;
-	font-size: 16px;
-	font-weight: bold;
-	color: black;
-	line-height: 40px;
+  width: auto;
+  box-sizing: border-box;
+  height: 40px;
+  margin: 60px 0 0 0;
+  padding: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  line-height: 40px;
 }
+#button_to_pass {
+  background: #00b0fc;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: #00b0fc 0 10px 20px -10px;
+  box-shadow: #00b0fc 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+}
+#buttonView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#passView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: -moz-use-text-color #ffffff #ffffff -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px #00b0fc inset;
+  color: #555555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+  border: 1px solid #00b0fc;
+}
+
+textarea:focus {
+  background: none repeat scroll 0 0;
+}
+
 </style>
 </head>
-<body>
-	<textarea id="text" placeholder="Domains or URL's here" style="border: 1px solid silver;"></textarea>
+<body> 
+	<textarea placeholder="Domains or URL's here" rows="20" name="comment[text]" id="comment_text" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
 	<input type="text" id="pass" placeholder="Password" style="border: 1px solid silver;">
 	<p>Successful attempts: <span id="success">0</span></p>
 	<p>Blocked attempts: <span id="un_success">0</span></p><br>
-	<input type="submit" id="turn" value="RELOAD SESSION" title="Resets current session">
-	<input type="submit" id="save" value="SAVE">
-        <br clear=all><br>
+	<div id="buttonView">
+		<input type="submit" id="save" value="SAVE">
+		<input type="submit" id="turn" value="RELOAD SESSION" title="Resets current session">
+	</div>
+    <br clear=all><br>
 </body>
 </html>
