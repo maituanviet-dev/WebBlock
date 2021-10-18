@@ -127,7 +127,7 @@ struct Step2: View {
                             Image("ic1step2")
                             Text("Enable ")
                                     .foregroundColor(Color("PRIMARY"))
-                                    .fontWeight(.bold) + Text("WebProtectoror")
+                                    .fontWeight(.bold) + Text("WebProtector")
                                     .foregroundColor(Color("PRIMARY"))
                         }
                         HStack{
@@ -148,7 +148,7 @@ struct Step2: View {
                         .padding(.bottom,40)
                     VStack(alignment:.leading,spacing: 20){
                         Text("Steps above will allow")
-                            .foregroundColor(Color("PRIMARY")) + Text(" WebProtectoror ")
+                            .foregroundColor(Color("PRIMARY")) + Text(" WebProtector ")
                             .foregroundColor(Color("PRIMARY"))
                             .fontWeight(.bold) + Text("to access all websites.")
                             .foregroundColor(Color("PRIMARY"))
@@ -192,7 +192,7 @@ struct Step3: View {
                     .foregroundColor(Color("PRIMARY")) + Text(" Safari ")
                     .foregroundColor(Color("PRIMARY"))
                     .fontWeight(.bold) + Text("and try")
-                    .foregroundColor(Color("PRIMARY")) + Text(" WebProtectoror ")
+                    .foregroundColor(Color("PRIMARY")) + Text(" WebProtector ")
                     .foregroundColor(Color("PRIMARY")).fontWeight(.bold)
                 Button {
                   
