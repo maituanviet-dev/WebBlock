@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099F7414271DCBD80044E8B7 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F7413271DCBD80044E8B7 /* Tutorial.swift */; };
 		CF718157271BD36F00979D46 /* WebBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF718156271BD36F00979D46 /* WebBlockApp.swift */; };
 		CF718159271BD36F00979D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF718158271BD36F00979D46 /* ContentView.swift */; };
 		CF71815B271BD37100979D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71815A271BD37100979D46 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		099F7413271DCBD80044E8B7 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		CF718153271BD36F00979D46 /* WebBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF718156271BD36F00979D46 /* WebBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBlockApp.swift; sourceTree = "<group>"; };
 		CF718158271BD36F00979D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				CF718156271BD36F00979D46 /* WebBlockApp.swift */,
 				CF718158271BD36F00979D46 /* ContentView.swift */,
+				099F7413271DCBD80044E8B7 /* Tutorial.swift */,
 				CF71815A271BD37100979D46 /* Assets.xcassets */,
 				CF71815C271BD37100979D46 /* Preview Content */,
 			);
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF718159271BD36F00979D46 /* ContentView.swift in Sources */,
+				099F7414271DCBD80044E8B7 /* Tutorial.swift in Sources */,
 				CF718157271BD36F00979D46 /* WebBlockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebBlock/Preview Content\"";
-				DEVELOPMENT_TEAM = 6B64C9BAR7;
+				DEVELOPMENT_TEAM = U75JWJ6J3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebBlock/Preview Content\"";
-				DEVELOPMENT_TEAM = 6B64C9BAR7;
+				DEVELOPMENT_TEAM = U75JWJ6J3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,7 +453,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B64C9BAR7;
+				DEVELOPMENT_TEAM = U75JWJ6J3Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebBlockExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebBlockExtension;
@@ -479,7 +483,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6B64C9BAR7;
+				DEVELOPMENT_TEAM = U75JWJ6J3Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebBlockExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebBlockExtension;
