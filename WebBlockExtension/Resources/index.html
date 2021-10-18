@@ -21,12 +21,13 @@ body {
   background: white;
 }
 .ui-autocomplete-input {
-  width: calc(100% - 20px);
+  width: calc(100% - 12px);
   height: 120px;
   margin: 10;
   font-size: 16px;
   outline: none;
   padding: 5px;
+  border-color: -moz-use-text-color #ffffff #ffffff -moz-use-text-color;
 }
 input[type="submit"] {
   width: auto;
@@ -66,7 +67,7 @@ input[type="submit"] {
   width: 200px;
   word-break: break-word;
   border: 0;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 #turn {
   background: #fe2e2e;
@@ -105,7 +106,6 @@ p {
   font-size: 16px;
   padding: 5px;
   background: none repeat scroll 0 0 #fff;
-  border-color: -moz-use-text-color #ffffff #ffffff -moz-use-text-color;
   border-image: none;
   border-radius: 6px 6px 6px 6px;
   border-style: none solid solid none;
@@ -170,7 +170,6 @@ textarea {
   border-radius: 6px 6px 6px 6px;
   border-style: none solid solid none;
   border-width: medium 1px 1px medium;
-  box-shadow: 0 1px 2px #00b0fc inset;
   color: #555555;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -183,14 +182,24 @@ textarea {
 textarea:focus {
   background: none repeat scroll 0 0;
 }
-
+#successText {
+    margin-top: 10px;
+    color: #0080FF;
+    font-weight: 500;
+}
+#blockedText {
+    color: #0080FF;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
 </style>
 </head>
 <body> 
 	<textarea placeholder="Domains or URL's here" rows="20" name="comment[text]" id="comment_text" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
-	<input type="text" id="pass" placeholder="Password" style="border: 1px solid silver;">
-	<p>Successful attempts: <span id="success">0</span></p>
-	<p>Blocked attempts: <span id="un_success">0</span></p><br>
+	<input type="text" id="pass" placeholder="Password">
+	<p id="successText">Successful Attempts: <span id="success">0</span></p>
+	<p id="blockedText">Blocked Attempts: <span id="un_success">0</span></p><br>
 	<div id="buttonView">
 		<input type="submit" id="save" value="SAVE">
 		<input type="submit" id="turn" value="RELOAD SESSION" title="Resets current session">

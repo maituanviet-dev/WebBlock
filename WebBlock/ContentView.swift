@@ -27,6 +27,10 @@ struct ContentView: View {
         let myWebsite = NSURL(string:"http://itunes.apple.com/app/id1590726316")
            let activityVC = UIActivityViewController(activityItems: [myWebsite], applicationActivities: nil)
            UIApplication.shared.windows.first?.rootViewController?.present(activityVC, animated: true, completion: nil)
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            activityVC.popoverPresentationController?.sourceView = UIApplication.shared.windows.first
+            activityVC.popoverPresentationController?.sourceRect = CGRect(x: UIScreen.main.bounds.width/2.1, y: UIScreen.main.bounds.height/2.3, width: 200, height: 200)
+        }
        }
     var body: some View {
         NavigationView{
@@ -43,8 +47,7 @@ struct ContentView: View {
 
             VStack{
                 Image("icApp")
-                    .padding(.top,50)
-                Text("WebProtectoror")
+                Text("WebProtector")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)
