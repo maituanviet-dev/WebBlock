@@ -14,7 +14,6 @@
 		CF71816B271BD39800979D46 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71816A271BD39800979D46 /* SafariWebExtensionHandler.swift */; };
 		CF718180271BD39800979D46 /* WebBlockExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF718168271BD39800979D46 /* WebBlockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF71818B271BD3CD00979D46 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF718185271BD3CC00979D46 /* manifest.json */; };
-		CF71818C271BD3CD00979D46 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = CF718186271BD3CC00979D46 /* _metadata */; };
 		CF71818D271BD3CD00979D46 /* bg.js in Resources */ = {isa = PBXBuildFile; fileRef = CF718187271BD3CC00979D46 /* bg.js */; };
 		CF71818E271BD3CD00979D46 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CF718188271BD3CC00979D46 /* index.html */; };
 		CF71818F271BD3CD00979D46 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF718189271BD3CC00979D46 /* icon.png */; };
@@ -55,7 +54,6 @@
 		CF71816A271BD39800979D46 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		CF71817D271BD39800979D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF718185271BD3CC00979D46 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		CF718186271BD3CC00979D46 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _metadata; sourceTree = "<group>"; };
 		CF718187271BD3CC00979D46 /* bg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bg.js; sourceTree = "<group>"; };
 		CF718188271BD3CC00979D46 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		CF718189271BD3CC00979D46 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 		CF71816C271BD39800979D46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF718186271BD3CC00979D46 /* _metadata */,
 				CF718187271BD3CC00979D46 /* bg.js */,
 				CF718189271BD3CC00979D46 /* icon.png */,
 				CF718188271BD3CC00979D46 /* index.html */,
@@ -235,7 +232,6 @@
 				CF71818F271BD3CD00979D46 /* icon.png in Resources */,
 				CF71818E271BD3CD00979D46 /* index.html in Resources */,
 				CF71818B271BD3CD00979D46 /* manifest.json in Resources */,
-				CF71818C271BD3CD00979D46 /* _metadata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
