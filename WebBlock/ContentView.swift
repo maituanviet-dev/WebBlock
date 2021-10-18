@@ -43,6 +43,7 @@ struct ContentView: View {
 
             VStack{
                 Image("icApp")
+                    .padding(.top,50)
                 Text("WebProtectoror")
                     .font(.title2)
                     .fontWeight(.semibold)
@@ -71,12 +72,11 @@ struct ContentView: View {
             }
             .frame(maxWidth:.infinity,maxHeight: .infinity,alignment: .top)
         }//ZStack
+        .navigationBarHidden(true)
         }//GeometryReader
         .frame(maxWidth:.infinity,maxHeight: .infinity)
         .background(Color.white).ignoresSafeArea(edges:.bottom)
         }//NavigationView
-        .navigationBarHidden(true)
-        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
