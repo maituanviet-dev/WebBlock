@@ -169,6 +169,7 @@ struct Step2: View {
 }
 
 struct Step3: View {
+    @Environment(\.presentationMode) private var presentaionMode: Binding<PresentationMode>
     var body: some View {
         ZStack{
             VStack{
@@ -195,16 +196,14 @@ struct Step3: View {
                     .foregroundColor(Color("PRIMARY")) + Text(" WebProtector ")
                     .foregroundColor(Color("PRIMARY")).fontWeight(.bold)
                 Button {
-                  
+                    presentaionMode.wrappedValue.dismiss()
                 } label: {
-                    NavigationLink(destination: ContentView()) {
                         ZStack{
                             Image("bgBtn")
                             Text("DONE")
                                 .foregroundColor(Color.white)
                                 .fontWeight(.bold)
                         }
-                    }
                 }
                 
             }
