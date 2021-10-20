@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Teko';
+  src: url("/fonts/Teko-Regular.ttf");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #DBE1F6;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #2C3A6A;
+}
+
+#logo {
+  width: 143px;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+}
+
+.acp-pincode-container {
+  width: 232px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.acp-pincode-container input {
+  font-size: 24px;
+}
+
+.acp-pincode-item {
+  width: 46px;
+  height: 46px;
+  background: #FFFFFF;
+  border: 1px solid #B0ABE9;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.acp-pincode-item:hover,
+.acp-pincode-item:focus {
+  border-color: #665EBD;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,19 +1,37 @@
 {
-   "author": "Tuan Viet",
-   "background": {
-      "scripts": [ "bg.js" ],
-      "persistent": false
-   },
-   "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "index.html"
-   },
-   "description": "Require password for blacklisted sites",
-   "icons": {
-      "48": "icon.png"
-   },
-   "manifest_version": 2,
-   "name": "Website Block with Password",
-   "permissions": [ "tabs", "storage", "\u003Call_urls>" ],
-   "version": "1.1.1"
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "author": "Block Site Plus",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png",
+    "16": "icons/icon16.png"
+  },
+  "default_locale": "en",
+  "manifest_version": 2,
+  "name": "__MSG_name__",
+  "options_page": "p/access/access.html",
+  "description": "__MSG_description__",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "storage",
+    "\u003Call_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "web_accessible_resources": [
+    "p/block/*",
+    "lib/*",
+    "images/*",
+    "fonts/Teko-Regular.ttf"
+  ],
+  "version": "2.1.0"
 }

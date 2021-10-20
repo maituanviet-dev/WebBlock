@@ -1,0 +1,77 @@
+.custom-input {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-input input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-input .checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #B0ABE9;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.custom-input .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-input input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-input {
+  padding-left: 29px;
+}
+
+.custom-input.square-type .checkmark {
+  border-radius: 2px;
+}
+
+.custom-input.square-type .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: 2px solid #665EBD;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.custom-input:hover input ~ .checkmark, 
+.custom-input input:checked ~ .checkmark{
+  border-color: #665EBD;
+}
+
+.custom-input.circle-type .checkmark {
+  border-radius: 50%;
+}
+
+.custom-input.circle-type .checkmark:after {
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #665EBD;
+}

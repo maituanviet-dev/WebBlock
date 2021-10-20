@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Access password</title>
+  </head>
+  <body form="acp-pincode-container">
+    <img id="logo" src="/images/logo.svg" alt="logo">
+    <span>Enter your code to access the settings:</span>
+    <form class="acp-pincode-container" method="POST">
+      <input class="acp-pincode-item" type="number" min="0" max="9" data-idx="1" id="acp-pincode-item-1" autofocus>
+      <input class="acp-pincode-item" type="number" min="0" max="9" data-idx="2" id="acp-pincode-item-2">
+      <input class="acp-pincode-item" type="number" min="0" max="9" data-idx="3" id="acp-pincode-item-3">
+      <input class="acp-pincode-item" type="number" min="0" max="9" data-idx="4" id="acp-pincode-item-4">
+    </form>
+    <script type="text/javascript" src="/lib/jquery.js"></script>
+    <script src="access.js"></script>
+  </body>
+</html>

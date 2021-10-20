@@ -8,18 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		099F7414271DCBD80044E8B7 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F7413271DCBD80044E8B7 /* Tutorial.swift */; };
+		CF06EDC5272065F9006B332F /* lib in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDBA272065F8006B332F /* lib */; };
+		CF06EDC6272065F9006B332F /* popup in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDBB272065F8006B332F /* popup */; };
+		CF06EDC7272065F9006B332F /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDBC272065F8006B332F /* images */; };
+		CF06EDC8272065F9006B332F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDBD272065F8006B332F /* icons */; };
+		CF06EDCA272065F9006B332F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDBF272065F8006B332F /* _locales */; };
+		CF06EDCB272065F9006B332F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDC0272065F8006B332F /* background.js */; };
+		CF06EDCC272065F9006B332F /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDC1272065F8006B332F /* inject.js */; };
+		CF06EDCD272065F9006B332F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDC2272065F8006B332F /* manifest.json */; };
+		CF06EDCE272065F9006B332F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDC3272065F9006B332F /* fonts */; };
+		CF06EDCF272065F9006B332F /* p in Resources */ = {isa = PBXBuildFile; fileRef = CF06EDC4272065F9006B332F /* p */; };
 		CF10B008271DD53E00BEFC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10B007271DD53E00BEFC6D /* LaunchScreen.storyboard */; };
-		CF10B00A271DD66100BEFC6D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF10B009271DD66000BEFC6D /* icon.png */; };
 		CF718157271BD36F00979D46 /* WebBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF718156271BD36F00979D46 /* WebBlockApp.swift */; };
 		CF718159271BD36F00979D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF718158271BD36F00979D46 /* ContentView.swift */; };
 		CF71815B271BD37100979D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71815A271BD37100979D46 /* Assets.xcassets */; };
 		CF71815E271BD37100979D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF71815D271BD37100979D46 /* Preview Assets.xcassets */; };
 		CF71816B271BD39800979D46 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71816A271BD39800979D46 /* SafariWebExtensionHandler.swift */; };
 		CF718180271BD39800979D46 /* WebBlockExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF718168271BD39800979D46 /* WebBlockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CF71818B271BD3CD00979D46 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF718185271BD3CC00979D46 /* manifest.json */; };
-		CF71818D271BD3CD00979D46 /* bg.js in Resources */ = {isa = PBXBuildFile; fileRef = CF718187271BD3CC00979D46 /* bg.js */; };
-		CF71818E271BD3CD00979D46 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CF718188271BD3CC00979D46 /* index.html */; };
-		CF718190271BD3CD00979D46 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = CF71818A271BD3CC00979D46 /* script.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +53,17 @@
 
 /* Begin PBXFileReference section */
 		099F7413271DCBD80044E8B7 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		CF06EDBA272065F8006B332F /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		CF06EDBB272065F8006B332F /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = popup; sourceTree = "<group>"; };
+		CF06EDBC272065F8006B332F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CF06EDBD272065F8006B332F /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		CF06EDBF272065F8006B332F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CF06EDC0272065F8006B332F /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		CF06EDC1272065F8006B332F /* inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inject.js; sourceTree = "<group>"; };
+		CF06EDC2272065F8006B332F /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CF06EDC3272065F9006B332F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		CF06EDC4272065F9006B332F /* p */ = {isa = PBXFileReference; lastKnownFileType = folder; path = p; sourceTree = "<group>"; };
 		CF10B007271DD53E00BEFC6D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF10B009271DD66000BEFC6D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		CF718153271BD36F00979D46 /* WebBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF718156271BD36F00979D46 /* WebBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBlockApp.swift; sourceTree = "<group>"; };
 		CF718158271BD36F00979D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +72,6 @@
 		CF718168271BD39800979D46 /* WebBlockExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WebBlockExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF71816A271BD39800979D46 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		CF71817D271BD39800979D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF718185271BD3CC00979D46 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		CF718187271BD3CC00979D46 /* bg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bg.js; sourceTree = "<group>"; };
-		CF718188271BD3CC00979D46 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		CF71818A271BD3CC00979D46 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +144,16 @@
 		CF71816C271BD39800979D46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF718187271BD3CC00979D46 /* bg.js */,
-				CF718188271BD3CC00979D46 /* index.html */,
-				CF718185271BD3CC00979D46 /* manifest.json */,
-				CF10B009271DD66000BEFC6D /* icon.png */,
-				CF71818A271BD3CC00979D46 /* script.js */,
+				CF06EDBF272065F8006B332F /* _locales */,
+				CF06EDC0272065F8006B332F /* background.js */,
+				CF06EDC3272065F9006B332F /* fonts */,
+				CF06EDBD272065F8006B332F /* icons */,
+				CF06EDBC272065F8006B332F /* images */,
+				CF06EDC1272065F8006B332F /* inject.js */,
+				CF06EDBA272065F8006B332F /* lib */,
+				CF06EDC2272065F8006B332F /* manifest.json */,
+				CF06EDC4272065F9006B332F /* p */,
+				CF06EDBB272065F8006B332F /* popup */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -234,11 +249,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF71818D271BD3CD00979D46 /* bg.js in Resources */,
-				CF10B00A271DD66100BEFC6D /* icon.png in Resources */,
-				CF718190271BD3CD00979D46 /* script.js in Resources */,
-				CF71818E271BD3CD00979D46 /* index.html in Resources */,
-				CF71818B271BD3CD00979D46 /* manifest.json in Resources */,
+				CF06EDCA272065F9006B332F /* _locales in Resources */,
+				CF06EDCE272065F9006B332F /* fonts in Resources */,
+				CF06EDCC272065F9006B332F /* inject.js in Resources */,
+				CF06EDC7272065F9006B332F /* images in Resources */,
+				CF06EDCB272065F9006B332F /* background.js in Resources */,
+				CF06EDCD272065F9006B332F /* manifest.json in Resources */,
+				CF06EDC8272065F9006B332F /* icons in Resources */,
+				CF06EDCF272065F9006B332F /* p in Resources */,
+				CF06EDC5272065F9006B332F /* lib in Resources */,
+				CF06EDC6272065F9006B332F /* popup in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

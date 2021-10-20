@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="/images/logo.svg" alt="logo">
+      <div id="settings"></div>
+    </header>
+
+    <div class="content">
+      <span>Domain:&nbsp;
+        <span id="domain"></span>
+      </span>
+
+      <form id="selected-url">
+        <input id="input-selected-url" type="url" name="selected-url" required>
+      </form>
+      <button class="set-current-url"><span>Use current URL</span></button>
+
+      <label class="custom-input square-type">Block all pages
+        <input type="checkbox" checked="checked" id="indicator" value="yes">
+        <span class="checkmark"></span>
+      </label>
+
+      <button id="save-button" type="submit" form="selected-url"><span>SAVE</span></button>
+    </div>
+
+    <script type="text/javascript" src="/lib/jquery.js"></script>
+    <script src="/popup/popup.js"></script>
+  </body>
+</html>

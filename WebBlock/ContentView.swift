@@ -48,7 +48,7 @@ struct ContentView: View {
             VStack{
                 Image("icApp")
                     .padding(.top,50)
-                Text("WebProtector")
+                Text("Web Protector")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)

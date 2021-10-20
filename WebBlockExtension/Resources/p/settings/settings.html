@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Settings</title>
+  </head>
+  <body>
+    <img id="logo" src="/images/logo.svg" alt="logo">
+
+    <div class="content settings">
+      <div class="settings-block">
+        <div class="pincode-wrapper">
+          <span class="heading">Access code</span>
+          <span class="description">This code will be required to unblock websites</span>
+    
+          <form class="pincode-conteiner" method="POST">
+            <input class="pincode-item" type="number" min="0" max="9" data-idx="1" name="pincode-item-1" id="pincode-item-1" required autofocus>
+            <input class="pincode-item" type="number" min="0" max="9" data-idx="2" name="pincode-item-2" id="pincode-item-2" required>
+            <input class="pincode-item" type="number" min="0" max="9" data-idx="3" name="pincode-item-3" id="pincode-item-3" required>
+            <input class="pincode-item" type="number" min="0" max="9" data-idx="4" name="pincode-item-4" id="pincode-item-4" required>
+            <button id="save-pincode-button" class="custom-btn"><span>SAVE</span></button>
+          </form>
+        </div>
+  
+        <div class="schedule-content">
+          <span class="heading">Schedule</span>
+
+          <div class="schedule-block">
+            <label class="custom-input circle-type description">Block always
+              <input type="radio" id="alwaysBlock" name="schedule">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-input circle-type description">Schedule
+              <input type="radio" id="schedule" name="schedule">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+
+          <div class="schedule-time">
+            <div class="schedule-date-item">
+              <span>Start time each day</span>
+              <input class="time" type="time" id="start-time">
+            </div>
+            <div class="schedule-date-item">
+              <span>End time each day</span>
+              <input class="time" type="time" id="end-time">
+            </div>
+          </div>
+    
+          <div class="schedule-days">
+            <span>Days of the week:</span>
+            <div class="days-block">
+              <div class="schedule-days-row">
+                <label class="custom-input square-type description">Sun
+                  <input type="checkbox" id="Sunday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="custom-input square-type description">Mon
+                  <input type="checkbox" id="Monday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="custom-input square-type description">Tue
+                  <input type="checkbox" id="Tuesday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="custom-input square-type description">Wed
+                  <input type="checkbox" id="Wednesday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="custom-input square-type description">Thu
+                  <input type="checkbox" id="Thursday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="schedule-days-row">
+                <label class="custom-input square-type description">Fri
+                  <input type="checkbox" id="Friday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="custom-input square-type description">Sat
+                  <input type="checkbox" id="Saturday" class="days">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="content blocked-sites">
+      <div class="blocked-sites-content">
+        <span class="heading">Block site</span>
+        <form class="blocked-sites-url">
+          <input id="blocked-sites-input" type="url" required>
+          <button id="block-site" class="custom-btn"><span>BLOCK</span></button>
+        </form>
+        <div class="blocked-sites">
+          <span class="heading">Blocked sites</span>
+          <div class="blocked-sites-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/lib/jquery.js"></script>
+    <script src="settings.js"></script>
+  </body>
+</html>
