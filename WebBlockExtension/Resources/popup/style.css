@@ -25,8 +25,8 @@
 }
 
 body {
-  width: 370px;
-  background: #DBE1F7;
+  width: 100%;
+  background: #DBE6F4;
   font-family: 'Teko', sans-serif;
   font-weight: bold;
   font-size: 22px;
@@ -69,14 +69,19 @@ header {
 #settings:active {
   background-image: url(../images/gear-active.svg);
 }
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .content {
-  width: 100%;
+  width: 370px;
 }
 
 #domain {
   font-weight: 400;
-  color: #665EBD;
+  color: #237CCF;
 }
 
 #selected-url {
@@ -116,7 +121,7 @@ header {
 .set-current-url {
   height: 32px;
   margin-bottom: 16px;
-  background: #665EBD;
+  background: #237CCF;
   box-shadow: 0px 2px 3px rgba(21, 26, 131, 0.25);
   border-radius: 0px 0px 4px 4px;
   font-weight: 600;
@@ -149,7 +154,7 @@ header {
   justify-content: center;
   height: 58px;
   margin: 24px 0 40px 0;
-  background: #665EBD;
+  background: #237CCF;
   box-shadow: 0px 6px 10px rgba(21, 27, 84, 0.2);
   border-radius: 4px;
   border: none;
