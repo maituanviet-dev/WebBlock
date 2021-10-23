@@ -46,7 +46,7 @@ body {
   width: 46px;
   height: 46px;
   background: #FFFFFF;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   outline: none;
@@ -55,7 +55,7 @@ body {
 
 .bp-pincode-item:hover,
 .bp-pincode-item:focus {
-  border-color: #665EBD;
+  border-color: #237CCF;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -67,7 +67,7 @@ input[type="number"]::-webkit-inner-spin-button {
 #settings-link {
   margin-top: 40px;
   font-size: 22px;
-  color: #665EBD;
+  color: #237CCF;
   cursor: pointer;
   text-decoration: underline;
   user-select: none;

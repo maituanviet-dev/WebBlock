@@ -22,7 +22,7 @@
   left: 0;
   height: 20px;
   width: 20px;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   border-radius: 2px;
   background: #FFFFFF;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
@@ -51,7 +51,7 @@
   top: 2px;
   width: 4px;
   height: 8px;
-  border: 2px solid #665EBD;
+  border: 2px solid #237CCF;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -60,7 +60,7 @@
 
 .custom-input:hover input ~ .checkmark, 
 .custom-input input:checked ~ .checkmark{
-  border-color: #665EBD;
+  border-color: #237CCF;
 }
 
 .custom-input.circle-type .checkmark {
@@ -73,5 +73,5 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #665EBD;
+  background: #237CCF;
 }
