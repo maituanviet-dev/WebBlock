@@ -419,7 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebBlock/Preview Content\"";
-				DEVELOPMENT_TEAM = U75JWJ6J3Q;
+				DEVELOPMENT_TEAM = 6B64C9BAR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebBlock/Preview Content\"";
-				DEVELOPMENT_TEAM = U75JWJ6J3Q;
+				DEVELOPMENT_TEAM = 6B64C9BAR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -477,7 +477,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U75JWJ6J3Q;
+				DEVELOPMENT_TEAM = 6B64C9BAR7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebBlockExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebBlockExtension;
@@ -507,7 +507,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U75JWJ6J3Q;
+				DEVELOPMENT_TEAM = 6B64C9BAR7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebBlockExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WebBlockExtension;
