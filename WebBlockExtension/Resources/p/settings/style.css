@@ -251,11 +251,13 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .blocked-sites-content {
-  width: 100%;
+  width: 430px;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding:10px
+  padding:10px;
+  height: 440px;
 }
 
 .blocked-sites-url {
@@ -347,6 +349,16 @@ input[type="number"]::-webkit-inner-spin-button {
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .settings{
+    max-width: 430px;
+    margin-right: 0px;
+    margin: 0px auto;
+  }
+  .blocked-sites{
+    width: 430px;
+    margin: 30px auto;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .main-content{
@@ -398,4 +410,11 @@ input[type="number"]::-webkit-inner-spin-button {
     width: 340px;
     margin: 30px auto;
   }
+  .blocked-sites-url {
+    width: 78%;
+  }
+  .blocked-sites-list {
+    width: 78%;
+  }
+
 }
