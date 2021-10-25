@@ -1,6 +1,5 @@
 {
-  "update_url": "https://clients2.google.com/service/update2/crx",
-  "author": "Block Site Plus",
+  "author": "Web Blocker",
   "background": {
     "scripts": [
       "background.js"
@@ -17,7 +16,7 @@
   },
   "default_locale": "en",
   "manifest_version": 2,
-  "name": "__MSG_name__",
+  "name": "Web Blocker",
   "options_page": "p/access/access.html",
   "description": "__MSG_description__",
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",

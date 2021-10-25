@@ -48,7 +48,7 @@ struct ContentView: View {
             VStack{
                 Image("icApp")
                     .padding(.top,50)
-                Text("Web Protector")
+                Text("Web Blocker")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)
@@ -81,6 +81,8 @@ struct ContentView: View {
         .frame(maxWidth:.infinity,maxHeight: .infinity)
         .background(Color.white).ignoresSafeArea(edges:.bottom)
         }//NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
+
     }
 }
 

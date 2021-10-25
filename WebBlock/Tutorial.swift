@@ -81,7 +81,7 @@ struct Step1: View {
                         HStack{
                             Text("Tap")
                                 .foregroundColor(Color("PRIMARY"))
-                            Text("Web Protector")
+                            Text("Web Blocker")
                                 .foregroundColor(Color("PRIMARY"))
                                 .fontWeight(.bold)
                         }
@@ -127,7 +127,7 @@ struct Step2: View {
                             Image("ic1step2")
                             Text("Enable ")
                                     .foregroundColor(Color("PRIMARY"))
-                                    .fontWeight(.bold) + Text("Web Protector")
+                                    .fontWeight(.bold) + Text("Web Blocker")
                                     .foregroundColor(Color("PRIMARY"))
                         }
                         HStack{
@@ -148,7 +148,7 @@ struct Step2: View {
                         .padding(.bottom,40)
                     VStack(alignment:.leading,spacing: 20){
                         Text("Steps above will allow")
-                            .foregroundColor(Color("PRIMARY")) + Text(" Web Protector ")
+                            .foregroundColor(Color("PRIMARY")) + Text(" Web Blocker ")
                             .foregroundColor(Color("PRIMARY"))
                             .fontWeight(.bold) + Text("to access all websites.")
                             .foregroundColor(Color("PRIMARY"))
@@ -193,7 +193,7 @@ struct Step3: View {
                     .foregroundColor(Color("PRIMARY")) + Text(" Safari ")
                     .foregroundColor(Color("PRIMARY"))
                     .fontWeight(.bold) + Text("and try")
-                    .foregroundColor(Color("PRIMARY")) + Text(" Web Protector ")
+                    .foregroundColor(Color("PRIMARY")) + Text(" Web Blocker ")
                     .foregroundColor(Color("PRIMARY")).fontWeight(.bold)
                 Button {
                     presentaionMode.wrappedValue.dismiss()

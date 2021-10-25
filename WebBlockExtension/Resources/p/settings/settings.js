@@ -164,4 +164,3 @@ window.onload = () => {
 
   $('.time, .days').change(() => { saveUserSettings(); });
 };
-console.log('check github')
