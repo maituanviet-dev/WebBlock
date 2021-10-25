@@ -31,7 +31,6 @@ body {
   font-weight: bold;
   font-size: 22px;
   color: #2C3A6A;
-  padding: 12px 20px 0 20px;
 }
 
 header {
@@ -40,6 +39,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 28px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 #logo,
@@ -78,6 +79,7 @@ header {
 
 .content {
   width: 370px;
+  padding: 20px;
 }
 
 #domain {
