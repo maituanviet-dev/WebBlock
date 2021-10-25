@@ -92,7 +92,7 @@ body {
   height: 46px;
   margin-right: 16px;
   background: #FFFFFF;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   box-sizing: border-box;
   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 4px;  
@@ -123,11 +123,11 @@ body {
 }
 
 .custom-btn:hover {
-  background: #827ADB;
+  background: #1F6DB5;
 }
 
 .custom-btn:active {
-  background: #5048A7;
+  background: #1F6DB5;
   box-shadow: 0px 2px 4px rgba(21, 27, 84, 0.2);
 }
 
@@ -194,7 +194,7 @@ input[type="number"]::-webkit-inner-spin-button {
   font-family: 'Teko', sans-serif;
   text-align: center;
   background: #FFFFFF;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   outline: none;
@@ -204,7 +204,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .time:focus,
 .pincode-item:hover,
 .pincode-item:focus {
-  border-color: #665EBD;
+  border-color: #237CCF;
 }
 
 .schedule-days-row {
@@ -235,12 +235,12 @@ input[type="number"]::-webkit-inner-spin-button {
 .block-always .schedule-days {
   user-select: none;
   pointer-events: none;
-  color: #B0ABE9;
+  color: #AABCE9;
 }
 
 .block-always .time,
 .block-always .custom-input.square-type .checkmark {
-  background: #B0ABE9;
+  background: #AABCE9;
 }
 
 /* заблокированные сайты */
@@ -276,17 +276,17 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 18px;
   font-weight: 400;
   background: #FFFFFF;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .blocked-sites-url input:hover {
-  border-color: #665EBD;
+  border-color: #237CCF;
 }
 
 .blocked-sites-url input:focus {
-  border-color: #5048A7;
+  border-color: #1F6DB5;
 }
 
 #block-site {
@@ -299,7 +299,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 100%;
   height: 242px;
   background: #FFFFFF;
-  border: 1px solid #B0ABE9;
+  border: 1px solid #AABCE9;
   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   overflow-y: auto;
@@ -336,7 +336,7 @@ input[type="number"]::-webkit-inner-spin-button {
   justify-content: space-between;
   width: 100%;
   height: 45px;
-  border-bottom: 1px solid #B0ABE9;
+  border-bottom: 1px solid #AABCE9;
   padding: 0px 18px 0px 18px;
   cursor: pointer;
 }
